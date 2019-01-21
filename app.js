@@ -20,3 +20,5 @@ app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 app.listen(port, () => {
 	debug(`listening on port ${chalk.green(port)}`);
 });
+
+module.exports = app;
